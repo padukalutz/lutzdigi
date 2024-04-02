@@ -1,0 +1,24 @@
+{
+  "name": "lutzdigi",
+  "version": "1.0.0",
+  "description": "Intinya mempermudah lu buat integrasiin digiflazz ke aplikasi nodejs lu :)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padukalutz/lutzdigi.git"
+  },
+  "keywords": [
+    "lutzdigi",
+    "dgiflazz"
+  ],
+  "author": "Lutz Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padukalutz/lutzdigi/issues"
+  },
+  "homepage": "https://github.com/padukalutz/lutzdigi#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
