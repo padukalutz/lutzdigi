@@ -7,7 +7,7 @@
 ### Dokumentasi
 
 ```js
-const Digiflazz = require("digiflazz");
+const Digiflazz = require("lutzdigi");
 const digiflazz = new Digiflazz("username", "apikey");
 ```
 
@@ -58,7 +58,7 @@ let deposit = await digiflazz.transaksi("sku", "tujuan", "ref_id", "STATUS");
 ##### Webhook
 
 ```js
-const Digiflazz = require("digiflazz");
+const Digiflazz = require("lutzdigi");
 const digiflazz = new Digiflazz("username", "apikey", "webhookkey");
 
 app.post("/hook", Digiflazz.webhook(digiflazz), (req) => {
