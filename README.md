@@ -2,12 +2,12 @@
 
 ### Instalasi
 
-`npm install lutzdigi`
+`npm install lutz-digi`
 
 ### Dokumentasi
 
 ```js
-const Digiflazz = require("lutzdigi");
+const Digiflazz = require("lutz-digi");
 const digiflazz = new Digiflazz("username", "apikey");
 ```
 
@@ -58,7 +58,7 @@ let deposit = await digiflazz.transaksi("sku", "tujuan", "ref_id", "STATUS");
 ##### Webhook
 
 ```js
-const Digiflazz = require("lutzdigi");
+const Digiflazz = require("lutz-digi");
 const digiflazz = new Digiflazz("username", "apikey", "webhookkey");
 
 app.post("/hook", Digiflazz.webhook(digiflazz), (req) => {
